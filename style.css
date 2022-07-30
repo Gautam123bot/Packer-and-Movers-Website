@@ -1,0 +1,874 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+
+/* -------------------------------------------------- Footer design-------------------------------- */
+
+.any-queries {
+    background: url(img/backfoot.jpg);
+    max-width: 100%;
+    height: 230px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+.any-queries-content {
+    text-align: center;
+}
+
+.any-queries h2 {
+    font-family: 'dm+sans', sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    word-spacing: 2px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.any-queries button {
+    background: none;
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.footer-logo {
+    background: white;
+    border-radius: 16px;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+}
+
+.footer-header {
+    font-size: 20px;
+    word-spacing: 2px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.footer-map {
+    max-width: 100%;
+    margin-top: 15px;
+}
+
+.middlebar {
+    background-color: #000b20;
+}
+
+footer p a {
+    /* font-family: 'Mukta', sans-serif; */
+    text-decoration: none;
+}
+
+footer p {
+    font-family: 'Cabin', sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding: 3px 0px;
+    text-align: left;
+    color: whitesmoke;
+}
+
+footer p i {
+    color: rgb(244, 244, 244);
+}
+
+.footerfirstpara {
+    text-align: justify;
+}
+
+.footerfirstparacontent {
+    width: 296px;
+}
+
+.copyrightsection {
+    border-top: 1px solid rgb(88, 88, 88);
+    font-family: 'Mukta', sans-serif;
+    font-size: 17px;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+}
+
+.copyrightsection p {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.social a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.ss {
+    background: #c7c19f;
+    padding: 10px;
+    display: flex;
+    font-size: 14px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #f9f9f9;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-facebook-f:before,
+.fa-facebook:before {
+    content: "\f09a";
+}
+
+.fa-facebook-f {
+    background: #3b5998;
+}
+
+.fa-twitter {
+    background: #66b1ff;
+}
+
+.fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 90%, #285AEB 90%);
+}
+
+.fa-linkedin-f {
+    background: #1b8db9;
+}
+
+.fa-linkedin-f:before {
+    content: "\f0e1";
+}
+
+.fa-youtube {
+    background: #d50c0c;
+}
+
+/* -------------------------------------------------- End of Footer design-------------------------------- */
+
+/* -----------------------------------------------Start of toggler design------------------------------------ */
+
+.navbar-toggler {
+    border: 0;
+    padding: 15px 15px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+
+.toggler-icon {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(242, 242, 242);
+    display: block;
+    transition: all 0.2s;
+}
+
+.middle-bar {
+    margin: 5px auto;
+}
+
+.navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+    background-color: black;
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    background-color: black;
+}
+
+.navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 10%;
+    background-color: black;
+}
+
+.navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+    background-color: black;
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    width: 22px;
+    margin-left: 0px;
+    background-color: black;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+    background-color: black;
+}
+
+
+/* -------------------------------------------- End of toggler design --------------------------------- */
+
+
+.navbar {
+    position: sticky;
+    padding: 0;
+    top: 0;
+    background: white;
+    box-shadow: 0px 0px 3px 0px rgb(228, 228, 228);
+    text-transform: uppercase;
+}
+
+/* .navbar-nav .nav-item .nav-link:hover {
+    color: rgb(0, 109, 167);
+} */
+.navbar-nav .nav-item .nav-link:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 0%;
+    content: '.';
+    color: transparent;
+    background: rgb(0, 179, 255);
+    height: 3px;
+}
+
+.navbar-nav .nav-item .nav-link:hover:after {
+    max-width: 100%;
+}
+
+.navbar-nav .nav-item .nav-link {
+    transition: all 2s;
+}
+
+.navbar-nav .nav-item .nav-link,
+.navbar-nav .nav-item .nav-link:after,
+.navbar-nav .nav-item .nav-link:before {
+    transition: all .5s;
+}
+
+/* nav.fill ul li a {
+  transition: all 2s;
+} */
+
+
+.navbar-nav .nav-item {
+    padding: 0px 0px;
+    position: relative;
+}
+
+.navbar-brand {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+.navbar-brand img {
+    max-width: 120px;
+    padding: 2px;
+} */
+
+.dropdown-menu {
+    border: none;
+    /* box-shadow: 0px 0px 10px 0px rgb(202, 202, 202); */
+    padding: 0px;
+    border-radius: 0px;
+    background: rgb(0, 27, 49);
+}
+
+.dropdown-menu .single-item {
+    padding: 12px 20px;
+    transition: 0.4s;
+    font-family: 'Mukta', sans-serif;
+}
+
+.dropdown-menu .dropdown-item {
+    color: white;
+    font-weight: 500;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: rgb(0, 123, 217);
+    background: none;
+    font-weight: bold;
+}
+
+.dropdown-divider {
+    margin: 0px;
+    color: white;
+    /* border: 1px dashed white; */
+}
+
+.nav-top-row {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.color-nav-part {
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.color-nav-part::before {
+    content: "";
+    height: 100%;
+    width: 60%;
+    background: #00aeff;
+    position: absolute;
+    top: 0;
+    left: -20px;
+    transform: skew(-25deg);
+}
+
+.orange-nav-part {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    /* padding-left: 250px; */
+}
+
+.black-nav-part {
+    float: right;
+    text-align: center;
+}
+
+.nav-login {
+    display: inline-block;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.color-nav-part .navicon-content {
+    display: inline-block;
+    color: white;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 15px;
+}
+
+.navicon-content p {
+    display: inline-block;
+}
+
+.navicon-content i {
+    margin: 0 10px;
+}
+
+.black-nav-part a {
+    text-decoration: none;
+    color: #00c8ff;
+    font-family: 'montserrat', sans-serif;
+}
+
+.black-nav-part i {
+    color: #00e1ff;
+    padding: 0 15px;
+}
+
+/* ********************************************* Index page design ***********************************/
+
+.index-carou {
+    background: #b7f7ff;
+    z-index: -1;
+}
+
+.index-carou img {
+    object-fit: contain;
+}
+
+
+/* ---------------------------------------- house service design -------------------------- */
+
+.house-services {
+    background: #fff4ea;
+}
+
+.house-services-container {
+    max-width: 1200px;
+    padding-bottom: 100px;
+}
+
+.small-service {
+    border: 1px solid rgb(176, 176, 176);
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px 6px 20px 140px;
+    background: white;
+    transition: all 1s;
+    cursor: pointer;
+}
+.small-service:hover{
+    background: rgb(0, 193, 227);
+    border: 1px solid rgb(0, 193, 227);
+}
+
+.small-service p {
+    padding: 0px 10px;
+    line-height: 20px;
+    font-family: 'montserrat', sans-serif;
+    margin-top: 5px;
+}
+
+.house-services-container .small-service-img {
+    padding: 15px 20px 5px 20px;
+}
+
+.house-top-heading {
+    text-align: center;
+    padding: 70px 0px 20px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: darkblue;
+}
+
+.house-top-para {
+    font-family: 'ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+.service-main-img {
+    max-width: 100%;
+    margin-top: 60px;
+}
+
+.house-goods {
+    background: white;
+    padding: 20px;
+    margin-left: -12px;
+    margin-top: 120px;
+}
+.house-goods h2{
+    font-size: 23px;
+    padding: 5px 0px 0px 15px;
+    font-family: 'open-sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.house-goods ul{
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.house-goods ul li{
+    padding: 8px 0px;
+    font-family: 'montserrat', sans-serif;
+}
+.house-goods ul li::marker{
+    color: rgb(0, 169, 198);
+}
+/* .second-service-content{
+    display: none;
+}
+.third-service-content{
+    display: none;
+} */
+
+
+#firsti{
+    display: none;
+}
+#firstc{
+    display: none;
+}
+#firstb{
+    display: none;
+}
+#secondi{
+    display: none;
+}
+#secondc{
+    display: none;
+}
+#secondb{
+    display: none;
+}
+#thirdi{
+    display: none;
+}
+#thirdc{
+    display: none;
+}
+#thirdb{
+    display: none;
+}
+
+
+
+.more-service{
+    background: #00c8ff;
+    color: black;
+    padding: 7px 15px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #00c8ff;
+    border-radius: 2px;
+}
+
+
+
+/* -------------------------------------- our process section design -------------------------- */
+
+.our-process {
+    background: rgb(247, 247, 247);
+}
+
+.our-process h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'raleway', sans-serif;
+    padding: 100px 0px 0px 0px;
+    margin: 0;
+    word-spacing: 5px;
+    font-size: 35px;
+}
+
+.our-process .packinghead {
+    text-align: center;
+    margin-top: 30px;
+    word-spacing: 1px;
+    color: rgb(95, 95, 95);
+    margin-bottom: 80px;
+    letter-spacing: 1px;
+    font-family: 'oxygen', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-weight: 500;
+}
+
+.our-process .our-process-dash {
+    height: 5px;
+    width: 80px;
+    border-radius: 25px;
+    display: block;
+    margin: 10px auto 10px auto;
+    background: rgb(0, 137, 201);
+}
+
+.our-process-content {
+    padding: 0px 15px 70px 15px;
+}
+
+.our-process-content img {
+    max-width: 100%;
+}
+
+.our-process-content h5 {
+    margin-top: 50px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+.our-process-content p {
+    color: rgb(59, 59, 59);
+    text-align: left;
+    font-family: 'montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.our-process-content .our-process-btn {
+    background: rgb(0, 162, 255);
+    border: none;
+    color: whitesmoke;
+    font-family: 'oxygen', sans-serif;
+    padding: 10px 19px;
+    border-radius: 36px;
+    font-weight: 600;
+    margin-top: 10px;
+    transition: 1s;
+}
+
+/* .our-process-content .our-process-btn:hover .our-process-btn i {
+    padding-left: 50px;
+} */
+.our-process-content .our-process-btn i {
+    padding-left: 10px;
+    color: white;
+    font-size: 17px;
+}
+
+/* ----------------------------------- about content design -------------------------- */
+
+/* .about-content{
+    margin-top: 50px;
+    padding: 30px 80px;
+    margin-bottom: 50px;
+} */
+.about-content h1 {
+    text-align: center;
+    padding: 20px;
+    font-family: 'poppins', sans-serif;
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: rgb(0, 60, 133);
+    line-height: 50px;
+}
+
+.about-content p {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+    word-spacing: 2px;
+    font-size: 17px;
+    font-family: 'mukta', sans-serif;
+    color: black;
+}
+
+/* ------------------------------------------ first choice content -------------------------- */
+
+.first-choice-section {
+    background: rgb(43, 43, 43);
+    margin-bottom: 50px;
+}
+
+.first-choice {
+    max-width: 1209px;
+    display: block;
+    margin: 0 auto;
+}
+
+.first-choice-content {
+    color: white;
+    padding: 50px 30px;
+}
+
+.first-choice-content h2 {
+    font-family: 'mukta', sans-serif;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.first-choice-content p {
+    text-align: justify;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+}
+
+.first-choice img {
+    max-width: 100%;
+}
+
+/* --------------------------------------------- packers india ----------------------- */
+
+.packers-india {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.packers-india img {
+    max-width: 100%;
+    padding: 30px 21px;
+    margin: 0;
+}
+
+.packers-india-content h4 {
+    display: inline-block;
+    color: rgb(0, 13, 96);
+    font-family: 'oxygen', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+.packers-india-content hr {
+    margin-top: -10px;
+    height: 2px;
+}
+
+.packers-india-city {
+    padding: 20px;
+}
+
+.packers-india-content a {
+    text-decoration: none;
+    color: gray;
+    float: right;
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    margin: 0px 20px;
+}
+
+.packers-india-content p {
+    border-bottom: 2px dotted gray;
+    padding: 15px 0px 7px 0px;
+    margin: 0px;
+    color: rgb(33, 33, 33);
+    font-size: 15px;
+    font-family: 'poppins', sans-serif;
+}
+
+
+
+/******************************************* Bihar page design ****************************** */
+
+.breadback {
+    position: relative;
+    background: url(img/breadback.jpg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+/* .breadback img {
+    width: 100%;
+    height: 300px;
+} */
+.breadback:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(13, 17, 71, 0.9);
+    opacity: 0.5;
+}
+
+.breadback h1 {
+    position: relative;
+    padding: 120px 0px;
+    font-size: 50px;
+    font-family: 'montserrat', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.subject-tutor {
+    margin-bottom: 40px;
+    max-width: 1100px;
+}
+
+.subject-tutor-row {
+    margin-bottom: 50px;
+    border: 1px solid darkblue;
+    /* background: rgb(153, 226, 255); */
+}
+
+.subject-tutor h2 {
+    font-family: cursive;
+    font-size: 50px;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: 600;
+    margin-top: 50px;
+    color: rgb(0, 0, 93);
+    text-align: center;
+    margin-bottom: 40px;
+    animation-name: fadeInDown;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+.subject-tutor .single-subject a {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    display: inline-block;
+    font-family: 'montserrat', sans-serif;
+    margin: 0;
+    padding: 68px 68px !important;
+    transition: .2s;
+    text-decoration: none;
+    color: darkblue;
+}
+
+.subject-tutor .single-subject a:hover {
+    color: whitesmoke;
+}
+
+.single-subject {
+    position: relative;
+    text-align: center;
+    border: 1px solid #003a8a !important;
+    padding: 0;
+    z-index: 1;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.single-subject::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #003a8a;
+    position: absolute;
+    left: 0;
+    bottom: -120%;
+    opacity: 0;
+    z-index: -1;
+    transition: .5s;
+}
+
+.single-subject:hover::after {
+    opacity: 1;
+    bottom: 0;
+}
+
+.single-subject:hover {
+    color: whitesmoke;
+}
+
+/* **************************************** About Us page design ************************************* */
+
+.about-first-content {
+    max-width: 1100px;
+    margin-bottom: 100px;
+}
+
+.about-img-content {
+    text-align: justify;
+    margin-top: 100px;
+}
+
+.about-img-content h2 {
+    color: darkblue;
+    font-family: 'ubuntu', sans-serif;
+    margin-bottom: 30px;
+}
+
+.about-img-content p {
+    color: rgb(42, 42, 42);
+    font-size: 17px;
+    word-spacing: 1px;
+    margin-bottom: 10px;
+    line-height: 23px;
+    font-family: 'mukta', sans-serif;
+}
+
+/* .about-img img{
+    max-width: 100%;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 62px;
+} */

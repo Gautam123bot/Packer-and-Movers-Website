@@ -9,26 +9,26 @@ function toggle() {
 function firstfunc() {
 
     var xf = document.getElementById("firsti");
-    if (xf.style.display === "none") {
-        xf.style.display = "block";
-    } else {
+    if (xf.style.display === "block") {
         xf.style.display = "none";
+    } else {
+        xf.style.display = "block";
     }
 
     
     var xf = document.getElementById("firstc");
-    if (xf.style.display === "none") {
-        xf.style.display = "block";
-    } else {
+    if (xf.style.display === "block") {
         xf.style.display = "none";
+    } else {
+        xf.style.display = "block";
     }
 
 
     var xf = document.getElementById("firstb");
-    if (xf.style.display === "none") {
-        xf.style.display = "block";
-    } else {
+    if (xf.style.display === "block") {
         xf.style.display = "none";
+    } else {
+        xf.style.display = "block";
     }
 
 }

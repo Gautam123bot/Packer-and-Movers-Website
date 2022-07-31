@@ -494,13 +494,13 @@ footer p i {
 
 
 #firsti{
-    display: none;
+    display: block;
 }
 #firstc{
-    display: none;
+    display: block;
 }
 #firstb{
-    display: none;
+    display: block;
 }
 #secondi{
     display: none;

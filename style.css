@@ -14,9 +14,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
 /* -------------------------------------------------- Footer design-------------------------------- */
+
+.footer-full {
+    position: relative;
+    z-index: 1;
+}
 
 .any-queries {
     background: url(img/backfoot.jpg);
@@ -241,6 +246,7 @@ footer p i {
     background: white;
     box-shadow: 0px 0px 3px 0px rgb(228, 228, 228);
     text-transform: uppercase;
+    z-index: 1;
 }
 
 /* .navbar-nav .nav-item .nav-link:hover {
@@ -427,7 +433,8 @@ footer p i {
     transition: all 1s;
     cursor: pointer;
 }
-.small-service:hover{
+
+.small-service:hover {
     background: rgb(0, 193, 227);
     border: 1px solid rgb(0, 193, 227);
 }
@@ -467,24 +474,29 @@ footer p i {
     margin-left: -12px;
     margin-top: 120px;
 }
-.house-goods h2{
+
+.house-goods h2 {
     font-size: 23px;
     padding: 5px 0px 0px 15px;
     font-family: 'open-sans', sans-serif;
     text-transform: uppercase;
     font-weight: 600;
 }
-.house-goods ul{
+
+.house-goods ul {
     margin-top: 5px;
     margin-bottom: 30px;
 }
-.house-goods ul li{
+
+.house-goods ul li {
     padding: 8px 0px;
     font-family: 'montserrat', sans-serif;
 }
-.house-goods ul li::marker{
+
+.house-goods ul li::marker {
     color: rgb(0, 169, 198);
 }
+
 /* .second-service-content{
     display: none;
 }
@@ -493,37 +505,45 @@ footer p i {
 } */
 
 
-#firsti{
+#firsti {
     display: block;
 }
-#firstc{
+
+#firstc {
     display: block;
 }
-#firstb{
+
+#firstb {
     display: block;
 }
-#secondi{
+
+#secondi {
     display: none;
 }
-#secondc{
+
+#secondc {
     display: none;
 }
-#secondb{
+
+#secondb {
     display: none;
 }
-#thirdi{
+
+#thirdi {
     display: none;
 }
-#thirdc{
+
+#thirdc {
     display: none;
 }
-#thirdb{
+
+#thirdb {
     display: none;
 }
 
 
 
-.more-service{
+.more-service {
     background: #00c8ff;
     color: black;
     padding: 7px 15px;
@@ -734,10 +754,11 @@ footer p i {
 .breadback {
     position: relative;
     background: url(img/breadback.jpg);
-    height: 300px;
+    height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: -1;
+    /* z-index: -1; */
+    max-width: 66.7%;
 }
 
 /* .breadback img {
@@ -757,7 +778,7 @@ footer p i {
 
 .breadback h1 {
     position: relative;
-    padding: 120px 0px;
+    padding: 70px 0px;
     font-size: 50px;
     font-family: 'montserrat', sans-serif;
     text-align: center;
@@ -842,13 +863,14 @@ footer p i {
 /* **************************************** About Us page design ************************************* */
 
 .about-first-content {
-    max-width: 1100px;
+    /* max-width: 1100px; */
     margin-bottom: 100px;
 }
 
 .about-img-content {
     text-align: justify;
-    margin-top: 100px;
+    margin-top: 50px;
+    padding: 35px;
 }
 
 .about-img-content h2 {
@@ -872,3 +894,149 @@ footer p i {
     margin-top: 90px;
     margin-left: 62px;
 } */
+
+.side-safety {
+    z-index: 1;
+    background: white;
+    float: right;
+    position: sticky;
+    top: 121px;
+    right: 0;
+    padding: 0;
+    height: calc(100vh - 61px);
+    overflow: auto;
+    scroll-behavior: smooth;
+    border-left: 1px solid rgb(235, 235, 235);
+}
+
+.side-safety-inner {
+    width: 100%;
+    max-width: 360px;
+    /* margin: 4% auto 10px; */
+    margin: 0px auto 100px auto;
+}
+
+.safety-card {
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    padding: 10px;
+}
+
+.safety-card h3 {
+    display: inline-block;
+    line-height: 11px;
+    font-size: 17px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    color: rgb(52, 52, 52);
+    margin-left: 19px;
+    letter-spacing: -1px;
+    word-spacing: 0px;
+}
+
+.safety-card .safety-dash {
+    height: 2px;
+    background: darkblue;
+    width: 60px;
+    margin: 5px 19px;
+}
+
+.safety-card ul li {
+    list-style: none;
+    font-size: 14px;
+    color: rgb(84, 84, 84);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.side-safety-inner h2 {
+    margin: 20px 0px;
+    font-size: 24px;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: -1px;
+}
+
+.side-safety-inner label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.side-safety-inner select,
+input {
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid rgb(203, 203, 203);
+}
+
+.side-safety-inner select::backdrop {
+    padding: 10px;
+}
+
+.side-safety-inner input::placeholder {
+    font-size: 16px;
+    color: rgb(150, 150, 150);
+    font-family: 'Lato', sans-serif;
+}
+
+.safety-button {
+    float: right;
+    margin: 30px 0px;
+    border: none;
+    background: darkblue;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: 'Work Sans', sans-serif;
+    padding: 10px 20px;
+}
+
+
+
+
+.menu_wrapper .two-nav {
+    display: flex;
+}
+
+.two-nav li {
+    text-decoration: none;
+    list-style-type: none;
+    /* flex: 1; */
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.menu_wrapper .two-nav li a {
+    display: inline-block;
+    transition: 0.5s ease;
+    font-family: 'Work Sans', sans-serif;
+    padding: 5px 0px;
+}
+
+.menu_wrapper li .active {
+    color: #009587;
+    border-bottom: 3px solid #009587;
+    width: 100%;
+    border-radius: 1px;
+    /* transition: 0.5s ease; */
+    font-family: 'Work Sans', sans-serif;
+}
+
+.menu_wrapper .two-nav li .btn:hover {
+    color: #009587;
+    border-bottom: 3px solid #009587;
+    width: 100%;
+    border-radius: 1px;
+    /* transition: 0.5s ease; */
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
+.fm_work_content{
+    display: inline-block;
+}
+

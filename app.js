@@ -15,7 +15,7 @@ function firstfunc() {
         xf.style.display = "block";
     }
 
-    
+
     var xf = document.getElementById("firstc");
     if (xf.style.display === "block") {
         xf.style.display = "none";
@@ -42,7 +42,7 @@ function secondfunc() {
         xs.style.display = "none";
     }
 
-    
+
     var xs = document.getElementById("secondc");
     if (xs.style.display === "none") {
         xs.style.display = "block";
@@ -69,7 +69,7 @@ function thirdfunc() {
         xt.style.display = "none";
     }
 
-    
+
     var xt = document.getElementById("thirdc");
     if (xt.style.display === "none") {
         xt.style.display = "block";
@@ -86,6 +86,32 @@ function thirdfunc() {
     }
 
 }
+
+// *************************** about navbar *************************
+
+
+// var btnContainer = document.getElementById("twonav");
+// var btns = btnContainer.getElementsByClassName("btn");
+
+// for (var i = 0; i < btns.length; i++) {
+//     btns[i].addEventListener("click", function() {
+//         var current = document.getElementsByClassName("active");
+//         current[0].className = current[0].className.replace("active");
+//         this.className += " active";
+//     })
+// }
+
+// var header = document.getElementById("myDIV");
+// var btns = header.getElementsByClassName("btn");
+// for (var i = 0; i < btns.length; i++) {
+//     btns[i].addEventListener("click", function () {
+//         var current = document.getElementsByClassName("active");
+//         current[0].className = current[0].className.replace(" active", "");
+//         this.className += " active";
+//     });
+// }
+
+
 
 
 

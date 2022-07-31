@@ -49,7 +49,7 @@
                 <button class="accountbutton">Open an Account</button>
 
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                    <a class="nav-link" aria-current="page" href="index.php">Home</a>
                 </li>
                 <li class="navmenudivider">
                     <hr class="dropdown-divider">
@@ -60,7 +60,7 @@
                     <i class="fa-solid fa-plus plusdropdown"></i>
                     <ul class="dropdown-menu fade-up animated-drop">
                         <li>
-                            <a href="about-us.php" target="_blank" class="dropdown-item single-item">About Us</a>
+                            <a href="about-us.php" class="dropdown-item single-item">About Us</a>
                         </li>
                         <li>
                             <hr class="dropdown-divider">
@@ -238,7 +238,7 @@
                     <i class="fa-solid fa-plus plusdropdown"></i>
                     <ul class="dropdown-menu fade-up animated-drop">
                         <li>
-                            <a href="bihar.php" target="_blank" class="dropdown-item single-item">Bihar</a>
+                            <a href="bihar.php" class="dropdown-item single-item">Bihar</a>
                         </li>
                         <li>
                             <hr class="dropdown-divider">

@@ -1,4 +1,4 @@
-<div class="container-fluid p-0">
+<div class="footer-full container-fluid p-0">
 
     <div class="any-queries">
         <div class="any-queries-content">

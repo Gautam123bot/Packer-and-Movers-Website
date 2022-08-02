@@ -280,6 +280,143 @@
     </section>
 
 
+    <!-- ---------------------------------------------- Testimonials section -------------------------- -->
+
+    <div class="container">
+        <div class="row full-testi">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <section class="testimonial-section" style="padding-left: 10px;">
+                    <div class="text-center p-4 testiheader">
+                        <h3>Top Packers and Movers Reviews</h3>
+                    </div>
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner testi-carousel-inn container-fluid">
+                            <div class="carousel-item active">
+                                <div class="row carouse-row">
+                                    <div class="col-lg-6 col-md-12 col-sm-12 mb-4">
+                                        <div class="carouse-content carouse-content-index">
+                                            <img src="img/man.jpg" alt="" class="img-responsive testiimg">
+                                            <p class="man-text">Suresh Kumar Singh</p>
+                                            <div class="testi-ranking">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p class="small-comment">Convenience guaranteed by FastDeliver packers and
+                                                movers</p>
+                                            <p class="small-content">I am extremely happy with my experience with
+                                                NoBroker
+                                                movers and packers team. Being a senior citizen while shift from
+                                                Hyderabad
+                                                to Ranchi I was worried about the entire shifting process. But thanks to
+                                                Nobroker and their team for making the entire process smooth and easy
+                                            </p>
+                                            <p class="small-position">Head-Strategy & Business Development Jakson Ltd.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 col-sm-12 mb-4">
+                                        <div class="carouse-content carouse-content-index">
+                                            <img src="img/man.jpg" alt="" class="img-responsive testiimg">
+                                            <p class="man-text">R.K. Mishra</p>
+                                            <div class="testi-ranking">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star-half"></i>
+                                            </div>
+                                            <p class="small-comment">Recommended for everyone looking for best-in-class
+                                                services!</p>
+                                            <p class="small-content">Extraordinary services and customer support
+                                                provider by
+                                                NoBroker Packers and Movers for my shifting from Faridabad to Lucknow.
+                                                Extremely happy with the customer care and service provided by their
+                                                team.
+                                                Miles to go. Kudos Team.</p>
+                                            <p class="small-position">Ex DGM, State Bank of India</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row carouse-row">
+                                    <div class="col-lg-6 col-md-12 col-sm-12 mb-4">
+                                        <div class="carouse-content carouse-content-index">
+                                            <div class="right-quotee-div">
+                                            </div>
+                                            <img src="img/man.jpg" alt="" class="img-responsive testiimg">
+                                            <p class="man-text">Sneha Trivedi</p>
+                                            <div class="testi-ranking">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p class="small-comment">Extremely happy with the support provided</p>
+                                            <p class="small-content">I'm very happy with the quality of services
+                                                provided by
+                                                Nobroker Packers and movers. A designated movement manager is assigned
+                                                to
+                                                each customer which makes the entire shifting process very convenient.
+                                            </p>
+                                            <p class="small-position">Business Owner</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 col-sm-12 mb-4">
+                                        <div class="carouse-content carouse-content-index">
+                                            <div class="right-quotee-div">
+                                            </div>
+                                            <img src="img/man.jpg" alt="" class="img-responsive testiimg">
+                                            <p class="man-text">Naveen Reddy</p>
+                                            <div class="testi-ranking">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star-half"></i>
+                                            </div>
+                                            <p class="small-comment">Exceptional customer support & hassle free
+                                                movement!
+                                            </p>
+                                            <p class="small-content">Professionalism with quality services is what you
+                                                get
+                                                with NoBroker Packers and Movers. Their entire team including their
+                                                Movement
+                                                manager made my shifting from Delhi to Gurgaon hassle free. I would
+                                                recommend their services to every one who is looking for best in class
+                                                packers and movers services.</p>
+                                            <p class="small-position">Visual Merchandiser</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"><i
+                                    class="fa-solid fa-arrow-left move-carou-left"></i></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"><i
+                                    class="fa-solid fa-arrow-right move-carou-right"></i></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+   
+
+
 
 
     <?php include 'footer.php'; ?>

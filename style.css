@@ -17,6 +17,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+
 /* -------------------------------------------------- Footer design-------------------------------- */
 
 .footer-full {
@@ -413,6 +419,12 @@ footer p i {
     object-fit: contain;
 }
 
+.carouse-content-index{
+    margin: 0 25px;
+}
+.testi-carousel-inn{
+    padding: 0;
+}
 
 /* ---------------------------------------- house service design -------------------------- */
 
@@ -702,7 +714,7 @@ footer p i {
 
 .packers-india {
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 
 .packers-india img {
@@ -1264,7 +1276,7 @@ input {
 .move-carou-left {
     color: black;
     position: absolute;
-    left: 26px;
+    left: 0px;
     box-shadow: 0 3px 6px #ccc;
     background-color: #fff;
     border-radius: 50%;
@@ -1279,7 +1291,7 @@ input {
 .move-carou-right {
     color: black;
     position: absolute;
-    right: 25px;
+    right: 0px;
     box-shadow: 0 3px 6px #ccc;
     border-radius: 50%;
     padding: 8px;

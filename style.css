@@ -19,7 +19,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -419,11 +419,16 @@ footer p i {
     object-fit: contain;
 }
 
-.carouse-content-index{
+.carouse-content-index {
     margin: 0 25px;
 }
-.testi-carousel-inn{
+
+.testi-carousel-inn {
     padding: 0;
+}
+
+.com_ques_full_index {
+    padding-left: 0 !important;
 }
 
 /* ---------------------------------------- house service design -------------------------- */
@@ -765,9 +770,10 @@ footer p i {
 /******************************************* Bihar page design ****************************** */
 
 .breadback {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 80px 120px;
     position: relative;
     background: url(img/breadback.jpg);
     height: 200px;
@@ -788,17 +794,45 @@ footer p i {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(13, 17, 71, 0.9);
-    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0.8;
 }
 
 .breadback h1 {
+    text-transform: uppercase;
     position: relative;
-    /* padding: 70px 0px; */
-    font-size: 50px;
+    padding: 0px 0px 0px 10px;
+    font-size: 32px;
     font-family: 'montserrat', sans-serif;
-    text-align: center;
+    float: left;
     color: white;
+    border-left: 5px solid rgb(105, 178, 227);
+}
+
+.breadback .right-bread-content {
+    float: right;
+    position: relative;
+    font-family: 'montserrat', sans-serif;
+}
+
+.right-bread-content i {
+    color: rgb(177, 177, 177);
+    padding-right: 10px;
+    display: inline-block
+}
+
+.right-bread-content p {
+    padding-left: 3px;
+    padding-right: 11px;
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+}
+
+.right-bread-content span {
+    color: white;
+    display: inline-block;
+    color: rgb(29, 173, 226);
 }
 
 .subject-tutor {
@@ -912,14 +946,14 @@ footer p i {
 } */
 
 .side-safety {
-    z-index: 1;
+    /* z-index: 1; */
     background: white;
     float: right;
     position: sticky;
     top: 121px;
     right: 0;
     padding: 0;
-    height: calc(90vh - 61px);
+    height: 820px;
     overflow: auto;
     scroll-behavior: smooth;
     border-left: 1px solid rgb(235, 235, 235);
@@ -1339,19 +1373,23 @@ input {
     font-size: 15px;
     font-weight: 500;
 }
-.question .ans{
+
+.question .ans {
     font-family: 'raleway', sans-serif;
     margin-left: 20px;
     margin-right: 30px;
 }
-.question .ans li{
+
+.question .ans li {
     list-style: none;
 }
-.question .ans li a{
+
+.question .ans li a {
     text-decoration: none;
     color: black;
 }
-.question hr{
+
+.question hr {
     color: black;
 }
 
@@ -1411,14 +1449,136 @@ i.quesplus {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* ------------------------------------------------- End of common question section ------------------- */
+
+
+/* ******************************* Start of contact us page design ***************************** */
+
+.breadback-contactpage {
+    max-width: 100% !important;
+}
+
+.mapncontent {
+    margin-top: 0px;
+}
+.mapnmap{margin-top: 80px;}
+.mapnpara{margin-top: 80px;}
+
+.contact_map {
+    max-width: 100%;
+    box-shadow: 2px 2px 7px 2px #dfdfdf;
+}
+
+.contact-map {
+    max-width: 100% !important;
+}
+
+.mapncontent p {
+    font-family: 'raleway', sans-serif;
+    word-spacing: 1.5px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.contact-contain {
+    max-width: 1300px;
+    display: block;
+    margin: 10px auto;
+}
+
+.contact_header h1{
+    font-family: 'ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 0;
+}
+
+.contact_header p {
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    text-transform: none;
+    margin: 0;
+}
+.contact_header{
+    border-left: 5px solid darkblue;
+    padding-left: 15px;
+    margin-bottom: 50px;
+}
+.contact_form input{
+    border: none;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin-bottom: 35px;
+    background: rgb(248, 248, 248);
+    border-bottom: 2px solid black;
+}
+.contact_form input::placeholder{
+    color: rgb(180, 180, 180);
+    font-family: 'mukta', sans-serif;
+    font-weight: 100;
+}
+.contact_form textarea{
+    padding-top: 10px;
+    border: none;
+    background: rgb(248, 248, 248);
+    border-bottom: 2px solid black;
+}
+.contact_form textarea::placeholder{
+    font-size: 17px;
+    color: rgb(180, 180, 180);
+    font-family: 'mukta', sans-serif;
+}
+.contact_submit{
+    border: none;
+    margin-top: 45px;
+    width: 200px;
+    padding: 10px 20px;
+    font-family: 'montserrat', sans-serif;
+    font-size: 20px;
+    color: white;
+    background: darkblue;
+    transition: all 0.5s ease-in-out;
+    border: 2px solid darkblue;
+}
+.contact_submit:hover{
+    background: white;
+    color: darkblue;
+}
+.side_form{
+    margin-top: 50px;
+}
+.side_contact{
+    margin-top: 50px;
+    /* margin-left: 20px; */
+}
+.side_contact .phoneicon{
+    color: white;
+    background: darkblue;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px !important;
+}
+.side_contact i{
+    color: darkblue;
+    font-size: 25px;
+    margin-right: 15px;
+}
+.topspancontact{
+    font-family: 'montserrat', sans-serif;
+    font-size: 21px;
+    padding-bottom: 13px;
+    border-bottom: 2px solid rgb(17, 48, 78);
+    box-shadow: 0px 7px 6px -5px #cfd0df;
+    display: block;
+}
+.side_contact p{
+    margin-top: 18px;
+    margin-bottom: 50px;
+    font-family: 'mukta', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+

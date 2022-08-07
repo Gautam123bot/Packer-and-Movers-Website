@@ -79,6 +79,11 @@
     <div class="breadback">
         <div class="breadback-back">
             <h1>About Us</h1>
+            <div class="right-bread-content">
+                <i class="fa-solid fa-house"></i>
+                <p>Home</p><span>//</span>
+                <p>About Us</p>
+            </div>
         </div>
     </div>
 

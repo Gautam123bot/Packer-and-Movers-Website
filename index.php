@@ -414,12 +414,310 @@
     </div>
 
 
+
+    <section class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <div class="com_ques_full com_ques_full_index">
+                    <h3>Common questions about Packers & Movers</h3>
+
+                    <div class="quesans">
+                        <div class="question">
+                            <p class="ques" id="ques1" onclick="questionfunction1()">Why should I pay token in advance
+                                before the move?</p>
+                            <i class="fa-solid fa-plus quesplus" id="plus1" onclick="questionfunction1()"></i>
+                            <p class="ans" id="ans1">The token is to confirm the slot bookings and avoid any last minute
+                                delays or
+                                inconvenience. The token amount will be adjusted in the final payment of your quotation.
+                            </p>
+                            <hr>
+                        </div>
+                        <div class="question">
+                            <p class="ques" id="ques2" onclick="questionfunction2()">Why are weekend and month-end
+                                prices
+                                different?</p>
+                            <i class="fa-solid fa-plus quesplus" id="plus2" onclick="questionfunction2()"></i>
+                            <p class="ans" id="ans2">The quote is calculated based on the availability of slots. Since
+                                there is
+                                high demand for movement during weekend and month-end, prices are generally high on
+                                these days.</p>
+                            <hr>
+                        </div>
+                        <div class="question">
+                            <p class="ques" id="ques3" onclick="questionfunction3()">Can I reschedule my movement after
+                                I
+                                have paid the token amount?</p>
+                            <i class="fa-solid fa-plus quesplus" id="plus3" onclick="questionfunction3()"></i>
+                            <p class="ans" id="ans3">You can reschedule your movement by informing your dedicated move
+                                manager
+                                whose details are included in the confirmation email. Your move manager will reschedule
+                                the movement based on the availability of slots</p>
+                            <hr>
+                        </div>
+                        <div class="question">
+                            <p class="ques" id="ques4" onclick="questionfunction4()">My movement date is not fixed yet.
+                                How can I book in advance?</p>
+                            <i class="fa-solid fa-plus quesplus" id="plus4" onclick="questionfunction4()"></i>
+                            <p class="ans" id="ans4">You can notify your dedicated movement manager to reschedule
+                                movement upto 2
+                                days before the booked date. Change in movement date is FREE of cost for following
+                                categories: weekdays to weekdays, weekend to weekend, weekend to weekdays.</p>
+                            <hr>
+                        </div>
+                        <div class="question">
+                            <p class="ques" id="ques5" onclick="questionfunction5()">Will the movers and packers also
+                                dismantle beds and other furniture?</p>
+                            <i class="fa-solid fa-plus quesplus" id="plus5" onclick="questionfunction5()"></i>
+                            <p class="ans" id="ans5">Yes, we can dismantle and assemble beds and other furniture without
+                                any extra
+                                cost. However, you will have to notify your dedicated move manager before movement.</p>
+                            <hr>
+                        </div>
+                        <div class="question">
+                            <p class="ques" id="ques6" onclick="questionfunction6()">We have very few items to move. The
+                                quotation is very costly.</p>
+                            <i class="fa-solid fa-plus quesplus" id="plus6" onclick="questionfunction6()"></i>
+                            <p class="ans" id="ans6">Please contact us at +91 924300 9813. We can arrange a small
+                                transportation
+                                for such movements at a lower cost.</p>
+                            <hr>
+                        </div>
+                        <div class="question">
+                            <p class="ques" id="ques7" onclick="questionfunction7()">Is preliminary inspection required
+                                before booking the movement?</p>
+                            <i class="fa-solid fa-plus quesplus" id="plus7" onclick="questionfunction7()"></i>
+                            <p class="ans" id="ans7">No, instant quotes are generated as per the apartment
+                                size/inventory
+                                list,
+                                movement date and the movement distance.</p>
+                            <hr>
+                        </div>
+                        <div class="question">
+                            <p class="ques" id="ques8" onclick="questionfunction8()">Are the packing materials are
+                                included in the package? Are there any hidden
+                                charges?</p>
+                            <i class="fa-solid fa-plus quesplus" id="plus8" onclick="questionfunction8()"></i>
+                            <p class="ans" id="ans8">Yes, all packing materials and labour cost are provided by the
+                                vendor and included in the package.</p>
+                            <hr>
+                        </div>
+                        <div class="question">
+                            <p class="ques" id="ques9" onclick="questionfunction9()">Do you provide insurance for the
+                                goods?</p>
+                            <i class="fa-solid fa-plus quesplus" id="plus9" onclick="questionfunction9()"></i>
+                            <p class="ans" id="ans9">Yes, you can insure your goods by informing your dedicated move
+                                manager. You
+                                will be required to purchase our secured package addon. This addon has many other
+                                benefits along with insurance.</p>
+                            <hr>
+                        </div>
+                        <div class="question">
+                            <p class="ques" id="ques10" onclick="questionfunction10()">Can I also move my car or bike?
+                            </p>
+                            <i class="fa-solid fa-plus quesplus" id="plus10" onclick="questionfunction10()"></i>
+                            <p class="ans" id="ans10">Yes, you can also move your car or bike for inter-city movements.
+                                Special
+                                closed containers will be used to transport your vehicle safely to your new home.</p>
+                            <hr>
+                        </div>
+                        <div class="question">
+                            <p class="ques" id="ques11" onclick="questionfunction11()">Cities where NoBroker provides
+                                Packers and Movers services</p>
+                            <i class="fa-solid fa-plus quesplus" id="plus11" onclick="questionfunction11()"></i>
+                            <div class="ans" id="ans11">
+                                <ul class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-6">
+                                        <li><a href="#">Packers & Movers in Bangalore</li></a>
+                                        <li><a href="#">Packers & Movers in Mumbai</li></a>
+                                        <li><a href="#">Packers & Movers in Chennai</li></a>
+                                        <li><a href="#">Packers & Movers in Pune</li></a>
+                                        <li><a href="#">Packers & Movers in Gurgaon</li></a>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-6">
+                                        <li><a href="#">Packers & Movers in Hyderabad</li></a>
+                                        <li><a href="#">Packers & Movers in Delhi</li></a>
+                                        <li><a href="#">Packers & Movers in Faridabad</li></a>
+                                        <li><a href="#">Packers & Movers in Noida</li></a>
+                                        <li><a href="#">Packers & Movers in Ghaziabad</li></a>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
    
-
-
-
-
     <?php include 'footer.php'; ?>
+
+    <script>
+        function questionfunction1() {
+        var question = document.getElementById("ques1");
+        var answer = document.getElementById("ans1");
+        var plus = document.getElementById("plus1");
+        if (answer.style.display === "block") {
+            answer.style.display = "none";
+            question.style.color = "black";
+            plus.style.transform = "rotate(0deg)";
+        } else {
+            answer.style.display = "block";
+            question.style.color = "rgb(0, 149, 135)";
+            plus.style.transform = "rotate(45deg)";
+        }
+    }
+
+    function questionfunction2() {
+        var question = document.getElementById("ques2");
+        var answer = document.getElementById("ans2");
+        var plus = document.getElementById("plus2");
+        if (answer.style.display === "block") {
+            answer.style.display = "none";
+            question.style.color = "black";
+            plus.style.transform = "rotate(0deg)";
+        } else {
+            answer.style.display = "block";
+            question.style.color = "rgb(0, 149, 135)";
+            plus.style.transform = "rotate(45deg)";
+        }
+    }
+
+    function questionfunction3() {
+        var question = document.getElementById("ques3");
+        var answer = document.getElementById("ans3");
+        var plus = document.getElementById("plus3");
+        if (answer.style.display === "block") {
+            answer.style.display = "none";
+            question.style.color = "black";
+            plus.style.transform = "rotate(0deg)";
+        } else {
+            answer.style.display = "block";
+            question.style.color = "rgb(0, 149, 135)";
+            plus.style.transform = "rotate(45deg)";
+        }
+    }
+
+    function questionfunction4() {
+        var question = document.getElementById("ques4");
+        var answer = document.getElementById("ans4");
+        var plus = document.getElementById("plus4");
+        if (answer.style.display === "block") {
+            answer.style.display = "none";
+            question.style.color = "black";
+            plus.style.transform = "rotate(0deg)";
+        } else {
+            answer.style.display = "block";
+            question.style.color = "rgb(0, 149, 135)";
+            plus.style.transform = "rotate(45deg)";
+        }
+    }
+
+    function questionfunction5() {
+        var question = document.getElementById("ques5");
+        var answer = document.getElementById("ans5");
+        var plus = document.getElementById("plus5");
+        if (answer.style.display === "block") {
+            answer.style.display = "none";
+            question.style.color = "black";
+            plus.style.transform = "rotate(0deg)";
+        } else {
+            answer.style.display = "block";
+            question.style.color = "rgb(0, 149, 135)";
+            plus.style.transform = "rotate(45deg)";
+        }
+    }
+
+    function questionfunction6() {
+        var question = document.getElementById("ques6");
+        var answer = document.getElementById("ans6");
+        var plus = document.getElementById("plus6");
+        if (answer.style.display === "block") {
+            answer.style.display = "none";
+            question.style.color = "black";
+            plus.style.transform = "rotate(0deg)";
+        } else {
+            answer.style.display = "block";
+            question.style.color = "rgb(0, 149, 135)";
+            plus.style.transform = "rotate(45deg)";
+        }
+    }
+
+    function questionfunction7() {
+        var question = document.getElementById("ques7");
+        var answer = document.getElementById("ans7");
+        var plus = document.getElementById("plus7");
+        if (answer.style.display === "block") {
+            answer.style.display = "none";
+            question.style.color = "black";
+            plus.style.transform = "rotate(0deg)";
+        } else {
+            answer.style.display = "block";
+            question.style.color = "rgb(0, 149, 135)";
+            plus.style.transform = "rotate(45deg)";
+        }
+    }
+
+    function questionfunction8() {
+        var question = document.getElementById("ques8");
+        var answer = document.getElementById("ans8");
+        var plus = document.getElementById("plus8");
+        if (answer.style.display === "block") {
+            answer.style.display = "none";
+            question.style.color = "black";
+            plus.style.transform = "rotate(0deg)";
+        } else {
+            answer.style.display = "block";
+            question.style.color = "rgb(0, 149, 135)";
+            plus.style.transform = "rotate(45deg)";
+        }
+    }
+
+    function questionfunction9() {
+        var question = document.getElementById("ques9");
+        var answer = document.getElementById("ans9");
+        var plus = document.getElementById("plus9");
+        if (answer.style.display === "block") {
+            answer.style.display = "none";
+            question.style.color = "black";
+            plus.style.transform = "rotate(0deg)";
+        } else {
+            answer.style.display = "block";
+            question.style.color = "rgb(0, 149, 135)";
+            plus.style.transform = "rotate(45deg)";
+        }
+    }
+
+    function questionfunction10() {
+        var question = document.getElementById("ques10");
+        var answer = document.getElementById("ans10");
+        var plus = document.getElementById("plus10");
+        if (answer.style.display === "block") {
+            answer.style.display = "none";
+            question.style.color = "black";
+            plus.style.transform = "rotate(0deg)";
+        } else {
+            answer.style.display = "block";
+            question.style.color = "rgb(0, 149, 135)";
+            plus.style.transform = "rotate(45deg)";
+        }
+    }
+
+    function questionfunction11() {
+        var question = document.getElementById("ques11");
+        var answer = document.getElementById("ans11");
+        var plus = document.getElementById("plus11");
+        if (answer.style.display === "block") {
+            answer.style.display = "none";
+            question.style.color = "black";
+            plus.style.transform = "rotate(0deg)";
+        } else {
+            answer.style.display = "block";
+            question.style.color = "rgb(0, 149, 135)";
+            plus.style.transform = "rotate(45deg)";
+        }
+    }
+    </script>
 
 
 </body>

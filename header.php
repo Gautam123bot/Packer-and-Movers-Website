@@ -266,7 +266,7 @@
                     <i class="fa-solid fa-plus plusdropdown"></i>
                     <ul class="dropdown-menu fade-up animated-drop">
                         <li>
-                            <a href="#" class="dropdown-item single-item">Enquiry Now</a>
+                            <a href="contact-us.php" class="dropdown-item single-item">Enquiry Now</a>
                         </li>
                         <li>
                             <hr class="dropdown-divider">

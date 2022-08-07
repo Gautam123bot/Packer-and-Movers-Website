@@ -24,9 +24,14 @@
 
     <?php include 'header.php' ?>
 
-    <div class="breadback">
-        <div class="breadback-back">
-            <h1>Packers and Movers Company in India</h1>
+    <div class="breadback breadback-contactpage">
+        <div class="breadback-back container">
+            <h1>Packers and Movers in Bihar</h1>
+            <div class="right-bread-content">
+                <i class="fa-solid fa-house"></i>
+                <p>Home</p><span>//</span>
+                <p>Bihar Services</p>
+            </div>
         </div>
     </div>
 

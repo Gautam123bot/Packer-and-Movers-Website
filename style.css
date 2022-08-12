@@ -1461,8 +1461,14 @@ i.quesplus {
 .mapncontent {
     margin-top: 0px;
 }
-.mapnmap{margin-top: 80px;}
-.mapnpara{margin-top: 80px;}
+
+.mapnmap {
+    margin-top: 80px;
+}
+
+.mapnpara {
+    margin-top: 80px;
+}
 
 .contact_map {
     max-width: 100%;
@@ -1486,7 +1492,7 @@ i.quesplus {
     margin: 10px auto;
 }
 
-.contact_header h1{
+.contact_header h1 {
     font-family: 'ubuntu', sans-serif;
     text-transform: uppercase;
     font-size: 30px;
@@ -1494,7 +1500,7 @@ i.quesplus {
 }
 
 .contact_header p {
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     font-size: 20px;
     font-weight: bold;
@@ -1502,12 +1508,14 @@ i.quesplus {
     text-transform: none;
     margin: 0;
 }
-.contact_header{
+
+.contact_header {
     border-left: 5px solid darkblue;
     padding-left: 15px;
     margin-bottom: 50px;
 }
-.contact_form input{
+
+.contact_form input {
     border: none;
     padding: 10px 15px;
     font-size: 17px;
@@ -1515,23 +1523,27 @@ i.quesplus {
     background: rgb(248, 248, 248);
     border-bottom: 2px solid black;
 }
-.contact_form input::placeholder{
+
+.contact_form input::placeholder {
     color: rgb(180, 180, 180);
     font-family: 'mukta', sans-serif;
     font-weight: 100;
 }
-.contact_form textarea{
+
+.contact_form textarea {
     padding-top: 10px;
     border: none;
     background: rgb(248, 248, 248);
     border-bottom: 2px solid black;
 }
-.contact_form textarea::placeholder{
+
+.contact_form textarea::placeholder {
     font-size: 17px;
     color: rgb(180, 180, 180);
     font-family: 'mukta', sans-serif;
 }
-.contact_submit{
+
+.contact_submit {
     border: none;
     margin-top: 45px;
     width: 200px;
@@ -1543,30 +1555,36 @@ i.quesplus {
     transition: all 0.5s ease-in-out;
     border: 2px solid darkblue;
 }
-.contact_submit:hover{
+
+.contact_submit:hover {
     background: white;
     color: darkblue;
 }
-.side_form{
+
+.side_form {
     margin-top: 50px;
 }
-.side_contact{
+
+.side_contact {
     margin-top: 50px;
     /* margin-left: 20px; */
 }
-.side_contact .phoneicon{
+
+.side_contact .phoneicon {
     color: white;
     background: darkblue;
     padding: 5px;
     border-radius: 5px;
     font-size: 16px !important;
 }
-.side_contact i{
+
+.side_contact i {
     color: darkblue;
     font-size: 25px;
     margin-right: 15px;
 }
-.topspancontact{
+
+.topspancontact {
     font-family: 'montserrat', sans-serif;
     font-size: 21px;
     padding-bottom: 13px;
@@ -1574,7 +1592,8 @@ i.quesplus {
     box-shadow: 0px 7px 6px -5px #cfd0df;
     display: block;
 }
-.side_contact p{
+
+.side_contact p {
     margin-top: 18px;
     margin-bottom: 50px;
     font-family: 'mukta', sans-serif;
@@ -1582,3 +1601,281 @@ i.quesplus {
     font-size: 17px;
 }
 
+/* ****************************** Start of services page ************************** */
+
+.free_estimate {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.free_estimate h3 {
+    /* word-spacing: 1px; */
+    text-align: justify;
+    font-family: 'glegoo', sans-serif;
+    width: 90%;
+}
+
+.free_estimate img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.free_estimate_contain {
+    max-width: 1200px;
+}
+
+.free_estimate_content {
+    margin-bottom: 30px;
+    display: block;
+    margin: auto 0;
+}
+
+.free_estimate_image {
+    margin-bottom: 30px;
+}
+
+.free_estimate_contain button {
+    border: none;
+    background: darkblue;
+    color: white;
+    font-family: 'raleway', sans-serif;
+    padding: 18px 26px;
+    margin-top: 25px;
+    font-size: 18px;
+    margin-left: 2px;
+}
+
+/* .free-estimate-row{
+    flex-direction: column-reverse;
+} */
+
+.four-service-section {
+    background: rgb(246, 246, 246);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.four-service {
+    max-width: 1550px;
+}
+
+.four-service img {
+    max-width: 100%;
+}
+
+.four-service-content {
+    background: white;
+    margin-bottom: 28px;
+    border-radius: 5px;
+}
+
+.four-service-content h1 {
+    font-size: 34px;
+    font-family: 'manrope', sans-serif;
+    font-weight: bold;
+}
+
+.four-service-paras {
+    padding: 50px 0px 50px 40px;
+}
+
+.four-service-content p {
+    /* line-height: 0px; */
+    font-size: 17px;
+    font-weight: 800;
+    font-family: 'montserrat', sans-serif;
+    margin-top: 25px;
+}
+
+.free-quote-section {
+    background: darkblue;
+    z-index: 1;
+    position: relative;
+}
+
+.free-quote {
+    max-width: 1100px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.free-quote h1 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 70px;
+}
+
+.free-quote p {
+    color: white;
+    font-family: 'montserrat', sans-serif;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.free-quote-col1 {
+    display: block;
+    margin: auto 0;
+    padding-right: 30px;
+}
+.free-quote-col2{
+    margin-top: 30px;
+}
+
+.free-quote-col2 input {
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-bottom: 30px;
+    background: transparent;
+    padding-left: 0;
+}
+
+.free-quote-col2 textarea::placeholder {
+    color: rgb(180, 180, 180);
+    font-family: 'mukta',sans-serif;
+    font-size: 18px;
+    word-spacing: 1px;
+}
+
+.free-quote-col2 input::placeholder {
+    color: rgb(181, 181, 181);
+    font-family: 'mukta',sans-serif;
+    font-size: 18px;
+    word-spacing: 1px;
+}
+
+.free-quote-col2 textarea {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+}
+
+.free-quote-col2 button {
+    background: white;
+    border: none;
+    color: darkblue;
+    padding: 12px 60px;
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-family: 'manrope', sans-serif;
+}
+
+
+/* ****************************** End of services page ************************** */
+
+
+/* ---------------------------------------------- Start of Home Modal -------------------------------------------- */
+
+.subscription_content {
+    box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
+    width: 100%;
+    border-top: 15px solid orangered;
+}
+
+.subscription_content .row {
+    border-radius: 10px;
+}
+
+.subscription_img {
+    max-width: 100%;
+    padding: 0;
+}
+
+.subscription_img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.subscription_form {
+    background-color: white;
+    padding-top: 30px;
+    /* padding-left: 40px; */
+    /* padding-right: 40px; */
+}
+
+.cross-close {
+    position: absolute;
+    right: -42px;
+    top: -28px;
+    z-index: 999;
+    background: green;
+    border-radius: 50%;
+    border: none;
+    font-size: 29px;
+    padding: 0px 10px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+
+.subscription_form p {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+    color: rgb(127, 127, 127);
+    max-width: 88%;
+    display: block;
+    margin: 0 auto;
+    font-size: 15px;
+
+}
+
+.subscription_form img {
+    width: 69px;
+    margin: 0 auto;
+    display: block;
+}
+
+.subscription_form h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    margin-top: 10px;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.inside_form {
+    padding: 10px 25px 75px 25px;
+}
+
+.selectone {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.selectone label {
+    padding-left: 2px;
+    padding-right: 11px;
+}
+
+.sigsbsform {
+    margin-top: 30px;
+    background: green;
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 19px;
+}
+.sigsbsform:hover {
+    color: whitesmoke;
+    background-color: #3b5998;
+}
+.checkbox_modal{
+    display: inline-block;
+}
+.acknowledge_label{
+    display: inline;
+}
+.three-input-modal{
+    margin-bottom: 20px;
+    border: 2px solid #e6e6e6;
+}
+
+/* ---------------------------------------------- End of Home Modal -------------------------------------------- */

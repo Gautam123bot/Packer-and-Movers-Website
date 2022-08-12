@@ -101,13 +101,15 @@
         /* z-index: -1; */
         max-width: 100%;
     }
+    
 
     .side-safety {
+        display: none;
         /* z-index: 1; */
         background: white;
         float: right;
         position: relative;
-        /* top: 121px; */
+        top: 250px;
         right: 0;
         padding: 0;
         height: 820px;
@@ -127,7 +129,7 @@
     .about-img-content {
         text-align: justify;
         margin-top: 80px;
-        padding: 80px 30px 20px 30px;
+        padding: 0px 30px 20px 30px;
     }
 
     .fm_work {
@@ -175,5 +177,11 @@
     .carouse-content-index {
         margin: 0 0px;
     }
-
+    .free-estimate-row{
+        flex-direction: column-reverse;
+    }
+    .about-first-content-row{
+        flex-direction: column-reverse;
+    }
+    
 }

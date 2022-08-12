@@ -549,11 +549,104 @@
         </div>
     </section>
 
-   
+    <section class="free-quote-section">
+        <div class="container free-quote">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6 free-quote-col1">
+                    <h1>Get Your Free Quote</h1>
+                    <p>Kindly Fill out this form we indus packers and movers will contact you as soon as possible.
+                        thanks</p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 free-quote-col2">
+                    <form action="">
+                        <input type="text" placeholder="Enter Your Name" name="name">
+                        <input type="number" placeholder="Enter Phone Number" name="name">
+                        <input type="text" placeholder="Enter Starting City" name="name">
+                        <input type="text" placeholder="Enter Destination City" name="name">
+                        <textarea name="query" id="" cols="30" rows="3" placeholder="Any Query"></textarea>
+                        <input type="email" name="email" id="" placeholder="Enter Email Id">
+                        <button>Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <?php include 'footer.php'; ?>
 
+
+    <!-- --------------------------------------- Start of Home Modal -------------------------------->
+
+
+    <div class="modal fade in" id="subscription" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+
+            <div class="modal-content">
+                <!-- <div class="modal-body"> -->
+                <div class="subscription_content container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <h2>Need help? <span>We're here to assist you!</span> </h2>
+                            <h3>Fill in the details and we'll get in touch</h3>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-6 subscription_img">
+                            <img src="img/optin_cart.png" alt="" class="img-responsive">
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-6 subscription_form">
+                            <button type="button" class="close cross-close" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                            <form action="" class="inside_form text-center">
+                                <div class="">
+                                    <input type="text" class="three-input-modal" name="name" id="" placeholder="Enter Your Name">
+                                </div>
+                                <div class="">
+                                    <input type="number" class="three-input-modal" name="phone" id="" placeholder="Enter Your Phone Number">
+                                </div>
+                                <div class="">
+                                    <input type="email" class="three-input-modal" name="email" id="" placeholder="Enter Your Email">
+                                </div>
+                                <div class="">
+                                    <div class="checkbox_modal">
+                                        <input type="checkbox" name="ip_check" id="">
+                                    </div>
+                                    <label for="" class="acknowledge_label">I acknowledge that my IP address and email address are being logged
+                                        for monitoring purposes.*</label>
+                                </div>
+                                <div class="">
+                                    <div class="checkbox_modal">
+                                        <input type="checkbox" name="terms_check" id="">
+                                    </div>
+                                    <label for="" class="acknowledge_label">I acknowledge <span>Terms of Service</span> and <span>Privacy
+                                            Policy</span>* </label>
+                                </div>
+                                <div class="form-group">
+                                    <a href="#" class="sigsbsform" id="subsforn">Submit</a>
+                                </div>
+                                <div class="">
+                                    <span class="hate-spam">We hate spam as much as you do, your detials are safe with
+                                        us.</span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>
+
     <script>
-        function questionfunction1() {
+    var subscription = new bootstrap.Modal(document.getElementById('subscription'), {})
+    subscription.show()
+    </script>
+
+    <!-- -------------------------- End of Home Modal -------------------------------------------- -->
+
+
+    <script>
+    function questionfunction1() {
         var question = document.getElementById("ques1");
         var answer = document.getElementById("ans1");
         var plus = document.getElementById("plus1");

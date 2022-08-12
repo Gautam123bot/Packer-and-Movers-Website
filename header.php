@@ -148,67 +148,8 @@
                     <hr class="dropdown-divider">
                 </li>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="#" data-bs-toggle="dropdown">Services</a>
-                    <!-- <a class="nav-link" href="mission.php" target="_blank">Mission & Vission</a> -->
-                    <!-- <i class="fa-solid fa-angle-down arrowdropdown"></i> -->
-                    <i class="fa-solid fa-plus plusdropdown"></i>
-                    <ul class="dropdown-menu fade-up animated-drop">
-                        <li>
-                            <a href="#" class="dropdown-item single-item">Local Relocations</a>
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li>
-                            <a href="#" class="dropdown-item single-item">Long Distance Relocations</a>
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li>
-                            <a href="#" class="dropdown-item single-item">Corporate Relocation</a>
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li>
-                            <a href="#" class="dropdown-item single-item">Office Relocations</a>
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li>
-                            <a href="#" class="dropdown-item single-item">Vehicle Transportation</a>
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li>
-                            <a href="#" class="dropdown-item single-item">Industrial and Machinery Moving</a>
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li>
-                            <a href="#" class="dropdown-item single-item">International Cargo Relocation</a>
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li>
-                            <a href="#" class="dropdown-item single-item">Warehousing Solutions</a>
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li>
-                            <a href="#" class="dropdown-item single-item">Handyman service</a>
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                    </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.php">Services</a>
                 </li>
 
                 <li class="navmenudivider">

@@ -76,7 +76,7 @@
         </div>
     </div>
 
-    <div class="breadback">
+    <div class="breadback breadback-about">
         <div class="breadback-back">
             <h1>About Us</h1>
             <div class="right-bread-content">
@@ -88,9 +88,9 @@
     </div>
 
 
-    <section>
+    <section class="about-first-content-section">
         <div class="container-fluid about-first-content">
-            <div class="row">
+            <div class="row about-first-content-row">
                 <div class="about-img-content col-sm-12 col-md-12 col-lg-7">
                     <h2>Shifting to a new home? And wondering how packers and movers company can help?</h2>
                     <p>Donec rutrum congue leo eget malesuada. Cras ultricies ligula sed magna dictum porta. Proin eget
@@ -481,10 +481,32 @@
         </div>
     </section>
 
-
-
+    <section class="free-quote-section">
+        <div class="container free-quote">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6 free-quote-col1">
+                    <h1>Get Your Free Quote</h1>
+                    <p>Kindly Fill out this form we indus packers and movers will contact you as soon as possible. thanks</p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 free-quote-col2">
+                    <form action="">
+                        <input type="text" placeholder="Enter Your Name" name="name">
+                        <input type="number" placeholder="Enter Phone Number" name="name">
+                        <input type="text" placeholder="Enter Starting City" name="name">
+                        <input type="text" placeholder="Enter Destination City" name="name">
+                        <textarea name="query" id="" cols="30" rows="3" placeholder="Any Query"></textarea>
+                        <input type="email" name="email" id="" placeholder="Enter Email Id">
+                        <button>Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <?php include 'footer.php'; ?>
+
+
+
 
     <script>
     var btnContainer = document.getElementById("twonav");

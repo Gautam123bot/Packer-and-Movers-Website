@@ -587,8 +587,8 @@
                 <div class="subscription_content container-fluid">
                     <div class="row">
                         <div class="col-sm-12 col-md-12 col-lg-12">
-                            <h2>Need help? <span>We're here to assist you!</span> </h2>
-                            <h3>Fill in the details and we'll get in touch</h3>
+                            <p class="need-help-para">Need help? <span>We're here to assist you!</span> </p>
+                            <h3 class="fill-in-para">Fill in the details and we'll get in touch</h3>
                         </div>
                         <div class="col-sm-12 col-md-12 col-lg-6 subscription_img">
                             <img src="img/optin_cart.png" alt="" class="img-responsive">
@@ -607,24 +607,24 @@
                                 <div class="">
                                     <input type="email" class="three-input-modal" name="email" id="" placeholder="Enter Your Email">
                                 </div>
-                                <div class="">
+                                <div class="checkbox_div">
                                     <div class="checkbox_modal">
                                         <input type="checkbox" name="ip_check" id="">
                                     </div>
-                                    <label for="" class="acknowledge_label">I acknowledge that my IP address and email address are being logged
+                                    <label for="" class="acknowledge_label">I acknowledge that my Phone Number and email address are being logged
                                         for monitoring purposes.*</label>
                                 </div>
-                                <div class="">
+                                <div class="checkbox_div">
                                     <div class="checkbox_modal">
                                         <input type="checkbox" name="terms_check" id="">
                                     </div>
                                     <label for="" class="acknowledge_label">I acknowledge <span>Terms of Service</span> and <span>Privacy
-                                            Policy</span>* </label>
+                                            Policy </span>* </label>
                                 </div>
                                 <div class="form-group">
                                     <a href="#" class="sigsbsform" id="subsforn">Submit</a>
                                 </div>
-                                <div class="">
+                                <div class="hate-spam-div">
                                     <span class="hate-spam">We hate spam as much as you do, your detials are safe with
                                         us.</span>
                                 </div>

@@ -18,177 +18,198 @@
     <script src="app.js"></script>
     <script src="https://kit.fontawesome.com/b90099deb6.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
     <?php include 'header.php'; ?>
 
 
-    <div id="carouselExampleFade" class="carousel index-carou slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/carou11.jpg" class="d-block w-100" width="300" height="670" alt="...">
+    <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="0" data-aos-duration="1000"
+        data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
+        data-aos-anchor-placement="top-center">
+        <div id="carouselExampleFade" class="carousel index-carou slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/carou11.jpg" class="d-block w-100" width="300" height="670" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carou2.jpeg" class="d-block w-100" width="300" height="670" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carou1.png" class="d-block w-100" width="300" height="670" alt="...">
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="img/carou2.jpeg" class="d-block w-100" width="300" height="670" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="img/carou1.png" class="d-block w-100" width="300" height="670" alt="...">
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
 
 
-    <section>
-        <div class="house-services">
-            <div class="container house-services-container">
-                <h2 class="house-top-heading">Services</h2>
-                <p class="house-top-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores earum
-                    mollitia animi
-                    consequuntur eveniet, corrupti, quos, ut ab quasi tenetur distinctio minima ex nesciunt quod
-                    accusantium numquam temporibus reprehenderit commodi ci praesentium quidem nulla voluptates
-                    reprehenderit quam repudiandae.</p>
-                <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-3">
-                        <div class="small-service-contain">
+    <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="0" data-aos-duration="1000"
+        data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
+        data-aos-anchor-placement="top-center">
 
-                            <div class="small-service" id="first" onclick="firstfunc()">
-                                <img src="img/house-service1.png" alt="" class="img-responsive small-service-img"
-                                    width="92">
-                                <p>Household Goods</p>
+        <section>
+            <div class="house-services">
+                <div class="container house-services-container">
+                    <h2 class="house-top-heading">Services</h2>
+                    <p class="house-top-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores earum
+                        mollitia animi
+                        consequuntur eveniet, corrupti, quos, ut ab quasi tenetur distinctio minima ex nesciunt quod
+                        accusantium numquam temporibus reprehenderit commodi ci praesentium quidem nulla voluptates
+                        reprehenderit quam repudiandae.</p>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-3">
+                            <div class="small-service-contain">
+
+                                <div class="small-service" id="first" onclick="firstfunc()">
+                                    <img src="img/house-service1.png" alt="" class="img-responsive small-service-img"
+                                        width="92">
+                                    <p>Household Goods</p>
+                                </div>
+
+                                <div class="small-service" onclick="secondfunc()">
+                                    <img src="img/house-service2.png" alt="" class="img-responsive small-service-img"
+                                        width="92">
+                                    <p>Cubes Logistics</p>
+                                </div>
+
+                                <div class="small-service" onclick="thirdfunc()">
+                                    <img src="img/house-service3.png" alt="" class="img-responsive small-service-img"
+                                        width="92">
+                                    <p>Contract Logistics</p>
+                                </div>
                             </div>
 
-                            <div class="small-service" onclick="secondfunc()">
-                                <img src="img/house-service2.png" alt="" class="img-responsive small-service-img"
-                                    width="92">
-                                <p>Cubes Logistics</p>
+                        </div>
+
+                        <div class="col-sm-12 col-md-12 col-lg-5 first-service-content" id="firsti">
+                            <img src="img/house-service.jpg" alt="" class="img-responsive service-main-img">
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-4 p-0 first-service-content" id="firstc">
+                            <div class="house-goods">
+                                <h2>Household Goods</h2>
+                                <ul>
+                                    <li>APML Domestic</li>
+                                    <li>APML International</li>
+                                    <li>APML Removal and Storage</li>
+                                </ul>
                             </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-12 first-service-content" id="firstb">
+                            <button class="more-service">More Services we offer</button>
+                        </div>
 
-                            <div class="small-service" onclick="thirdfunc()">
-                                <img src="img/house-service3.png" alt="" class="img-responsive small-service-img"
-                                    width="92">
-                                <p>Contract Logistics</p>
+
+                        <div class="col-sm-12 col-md-12 col-lg-5 second-service-content" id="secondi">
+                            <img src="img/house-servicee.jpg" alt="" class="img-responsive service-main-img">
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-4 p-0 second-service-content" id="secondc">
+                            <div class="house-goods">
+                                <h2>Cubes Logistics</h2>
+                                <ul>
+                                    <li>Part load and exclusive separate cubes</li>
+                                    <li>Zero space wastage</li>
+                                    <li>Vehicles available at eye distance</li>
+                                    <li>Zero trans-shipment at nominal rates</li>
+                                    <li>Virtual warehouse</li>
+                                </ul>
                             </div>
                         </div>
-
-                    </div>
-
-                    <div class="col-sm-12 col-md-12 col-lg-5 first-service-content" id="firsti">
-                        <img src="img/house-service.jpg" alt="" class="img-responsive service-main-img">
-                    </div>
-                    <div class="col-sm-12 col-md-12 col-lg-4 p-0 first-service-content" id="firstc">
-                        <div class="house-goods">
-                            <h2>Household Goods</h2>
-                            <ul>
-                                <li>APML Domestic</li>
-                                <li>APML International</li>
-                                <li>APML Removal and Storage</li>
-                            </ul>
+                        <div class="col-sm-12 col-md-12 col-lg-12 second-service-content" id="secondb">
+                            <button class="more-service">More Services we offer</button>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-12 col-lg-12 first-service-content" id="firstb">
-                        <button class="more-service">More Services we offer</button>
-                    </div>
 
 
-                    <div class="col-sm-12 col-md-12 col-lg-5 second-service-content" id="secondi">
-                        <img src="img/house-servicee.jpg" alt="" class="img-responsive service-main-img">
-                    </div>
-                    <div class="col-sm-12 col-md-12 col-lg-4 p-0 second-service-content" id="secondc">
-                        <div class="house-goods">
-                            <h2>Cubes Logistics</h2>
-                            <ul>
-                                <li>Part load and exclusive separate cubes</li>
-                                <li>Zero space wastage</li>
-                                <li>Vehicles available at eye distance</li>
-                                <li>Zero trans-shipment at nominal rates</li>
-                                <li>Virtual warehouse</li>
-                            </ul>
+                        <div class="col-sm-12 col-md-12 col-lg-5 third-service-content" id="thirdi">
+                            <img src="img/house-serviceee.jpg" alt="" class="img-responsive service-main-img">
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-12 col-lg-12 second-service-content" id="secondb">
-                        <button class="more-service">More Services we offer</button>
-                    </div>
-
-
-                    <div class="col-sm-12 col-md-12 col-lg-5 third-service-content" id="thirdi">
-                        <img src="img/house-serviceee.jpg" alt="" class="img-responsive service-main-img">
-                    </div>
-                    <div class="col-sm-12 col-md-12 col-lg-4 p-0 third-service-content" id="thirdc">
-                        <div class="house-goods">
-                            <h2>Contract Logistics</h2>
-                            <ul>
-                                <li>ODC Transportation</li>
-                                <li>Bulk goods</li>
-                                <li>Small Goods</li>
-                                <li>Car Transportation</li>
-                                <li>Warehousing</li>
-                            </ul>
+                        <div class="col-sm-12 col-md-12 col-lg-4 p-0 third-service-content" id="thirdc">
+                            <div class="house-goods">
+                                <h2>Contract Logistics</h2>
+                                <ul>
+                                    <li>ODC Transportation</li>
+                                    <li>Bulk goods</li>
+                                    <li>Small Goods</li>
+                                    <li>Car Transportation</li>
+                                    <li>Warehousing</li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-12 col-lg-12 third-service-content" id="thirdb">
-                        <button class="more-service">More Services we offer</button>
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <section>
-        <div class="our-process">
-            <div class="container p-4">
-                <h1>Our Process</h1>
-                <span class="our-process-dash"></span>
-                <p class="packinghead">Packing Standard are always in Priority</p>
-                <div class="row">
-                    <div class="col-sm-12 col-lg-4">
-                        <div class="our-process-content">
-                            <img src="img/packprocess1.jpg" width="380" alt="" class="img-responsive">
-                            <h5>Packing Materials</h5>
-                            <p>We bring our own packing-material to your home that is to be shifted. This helps in
-                                speeding up the packing process. Packing-material can be obtained over websites on the
-                                internet.</p>
-                            <button class="our-process-btn">Read More<i
-                                    class="fa-solid fa-circle-arrow-right"></i></button>
+                        <div class="col-sm-12 col-md-12 col-lg-12 third-service-content" id="thirdb">
+                            <button class="more-service">More Services we offer</button>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-lg-4">
-                        <div class="our-process-content">
-                            <img src="img/packprocess2.jpg" width="360" alt="" class="img-responsive">
-                            <h5>Packing Tips</h5>
-                            <p>The first thing that should be borne in mind while packing is that the item you are most
-                                likely to need the first when you reach your new home is to be packed last.</p>
-                            <button class="our-process-btn">Read More<i
-                                    class="fa-solid fa-circle-arrow-right"></i></button>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-lg-4">
-                        <div class="our-process-content">
-                            <img src="img/packprocess3.jpg" width="350" alt="" class="img-responsive">
-                            <h5>Transportation Process</h5>
-                            <p>The transportation process is the most important part of the shifting business. This is
-                                where most of the damage to goods is done. Transportation is usually done using trucks
-                                and lorries.</p>
-                            <button class="our-process-btn">Read More<i
-                                    class="fa-solid fa-circle-arrow-right"></i></button>
-                        </div>
+
+
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
+
+
+
+    <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="0" data-aos-duration="1000"
+        data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
+        data-aos-anchor-placement="top-center">
+
+        <section>
+            <div class="our-process">
+                <div class="container p-4">
+                    <h1>Our Process</h1>
+                    <span class="our-process-dash"></span>
+                    <p class="packinghead">Packing Standard are always in Priority</p>
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-4">
+                            <div class="our-process-content">
+                                <img src="img/packprocess1.jpg" width="380" alt="" class="img-responsive">
+                                <h5>Packing Materials</h5>
+                                <p>We bring our own packing-material to your home that is to be shifted. This helps in
+                                    speeding up the packing process. Packing-material can be obtained over websites on
+                                    the
+                                    internet.</p>
+                                <button class="our-process-btn">Read More<i
+                                        class="fa-solid fa-circle-arrow-right"></i></button>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-4">
+                            <div class="our-process-content">
+                                <img src="img/packprocess2.jpg" width="360" alt="" class="img-responsive">
+                                <h5>Packing Tips</h5>
+                                <p>The first thing that should be borne in mind while packing is that the item you are
+                                    most
+                                    likely to need the first when you reach your new home is to be packed last.</p>
+                                <button class="our-process-btn">Read More<i
+                                        class="fa-solid fa-circle-arrow-right"></i></button>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-4">
+                            <div class="our-process-content">
+                                <img src="img/packprocess3.jpg" width="350" alt="" class="img-responsive">
+                                <h5>Transportation Process</h5>
+                                <p>The transportation process is the most important part of the shifting business. This
+                                    is
+                                    where most of the damage to goods is done. Transportation is usually done using
+                                    trucks
+                                    and lorries.</p>
+                                <button class="our-process-btn">Read More<i
+                                        class="fa-solid fa-circle-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <section>
         <div class="container">
@@ -599,26 +620,31 @@
                             </button>
                             <form action="" class="inside_form text-center">
                                 <div class="">
-                                    <input type="text" class="three-input-modal" name="name" id="" placeholder="Enter Your Name">
+                                    <input type="text" class="three-input-modal" name="name" id=""
+                                        placeholder="Enter Your Name">
                                 </div>
                                 <div class="">
-                                    <input type="number" class="three-input-modal" name="phone" id="" placeholder="Enter Your Phone Number">
+                                    <input type="number" class="three-input-modal" name="phone" id=""
+                                        placeholder="Enter Your Phone Number">
                                 </div>
                                 <div class="">
-                                    <input type="email" class="three-input-modal" name="email" id="" placeholder="Enter Your Email">
+                                    <input type="email" class="three-input-modal" name="email" id=""
+                                        placeholder="Enter Your Email">
                                 </div>
                                 <div class="checkbox_div">
                                     <div class="checkbox_modal">
                                         <input type="checkbox" name="ip_check" id="">
                                     </div>
-                                    <label for="" class="acknowledge_label">I acknowledge that my Phone Number and email address are being logged
+                                    <label for="" class="acknowledge_label">I acknowledge that my Phone Number and email
+                                        address are being logged
                                         for monitoring purposes.*</label>
                                 </div>
                                 <div class="checkbox_div">
                                     <div class="checkbox_modal">
                                         <input type="checkbox" name="terms_check" id="">
                                     </div>
-                                    <label for="" class="acknowledge_label">I acknowledge <span>Terms of Service</span> and <span>Privacy
+                                    <label for="" class="acknowledge_label">I acknowledge <span>Terms of Service</span>
+                                        and <span>Privacy
                                             Policy </span>* </label>
                                 </div>
                                 <div class="form-group">
@@ -812,6 +838,10 @@
     }
     </script>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
 
 </body>
 
